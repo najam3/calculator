@@ -1,4 +1,4 @@
 # calculator
- [https://najam3.github.io/calculator/]()
+ [live demo](https://najam3.github.io/calculator/)
 
 
