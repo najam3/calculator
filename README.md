@@ -1,4 +1,4 @@
 # calculator
- [Links name](linkurl)
-calculatornajam.netlify.app
+ [Links name](calculatornajam.netlify.app)
+
 
