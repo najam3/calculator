@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.del {
+    width: 50%;
+}
+.ac {
+    width: 50%;
+}
+body {
+    background-color: rgb(0, 0, 0); 
+}
+
+
+
+.calculator-display  > .second-operand {
+    font-size: 32px;  
+}
+
+
+.calculator-wrapper {
+    width: 300px;
+    margin: 5% auto;
+    background-color: rgb(255, 255, 255);
+}
+
+.calculator-display {
+    border: 1px solid white;
+    padding: 2em 1em;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    height: 100px;
+}
+
+.calculator-buttons > .control  > .control-buttons > button{
+   padding: 1rem;
+  
+}
+
+
+.calculator-buttons .calculator-numbers {
+    
+    display: flex;
+    justify-content: stretch;
+   flex-wrap: wrap;
+    padding: 0;
+    width: 306px;
+    
+}
+
+.calculator-buttons .calculator-numbers button {
+    padding: 1rem;
+    background-color: rgb(0, 0, 0);
+    border: 0;
+    margin: 0.5em;
+    color: rgb(255, 255, 255);
+    width: 20%;
+}
+
+.calculator-buttons .calculator-numbers button:hover {
+    background-color: rgb(159, 0, 0);
+    cursor: pointer;
+    transition: 0.2s linear all;
+}
+.calculator-operators > button {
+    padding: 1rem;
+    font-size: 1rem;
+}
+.calculator-operators {
+    width: 100%;
+    
+}
+
+.calculator-buttons {
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    gap: 1em;
+    
+}
+
+
+.control-buttons {
+    display: flex;
+    gap: 1em;
+    width: 100%;
+}
+.control-buttons > button {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+  border: 0;
+}
