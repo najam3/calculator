@@ -1,4 +1,4 @@
 # calculator
- [calculatornajam.netlify.app]()
+ [https://najam3.github.io/calculator/]()
 
 
