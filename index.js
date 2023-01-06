@@ -39,7 +39,7 @@ let target = numbersParent.children;
         else if(text == "DEL") {
           if(expression.length > 0)
           expression = expression.slice(0, -1);
-        }  else if(text.includes('=') && expression == "=") {
+        }  else if(expression == "=" && text.includes("=")) {
           error()
         } else if(expression == "-" && text.includes("-")) {
           error();
