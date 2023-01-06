@@ -55,13 +55,19 @@ let target = numbersParent.children;
           error();
         }else if(expression == "**" && text.includes("**")) {
           error();
+        }else if(expression == "*" && text.includes("*")) {
+          error();
+        }else if(expression == "%" && text.includes("/")){
+          error();
+        }else if(expression == "%" && text.includes("+")){
+          error();
         }
         else {
           expression += text;
         }
         if(expression == undefined) {
           expression = "";
-          secondOperand.innerText = 0;
+          secondOperand.innerText = "";
         } 
         
         else {
