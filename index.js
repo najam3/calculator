@@ -44,13 +44,16 @@ let target = numbersParent.children;
         } else if(expression == "-" && text.includes("-")) {
           error();
           
-        }else if(expression.includes(".") && expression == ".") {
+        }else if(expression == "." && text.includes(".")) {
           error();
-        }else if(expression.includes("/") && expression == "/") {
+        }
+        else if(expression == "/" && text.includes("/")) {
           error();
-        }else if(expression.includes("%") && expression == "%") {
+        }else if(expression == "%" && text.includes("%")) {
           error();
-        }else if(expression.includes("+") && expression == "+") {
+        }else if(expression == "+" && text.includes("+")) {
+          error();
+        }else if(expression == "**" && text.includes("**")) {
           error();
         }
         else {
@@ -58,7 +61,7 @@ let target = numbersParent.children;
         }
         if(expression == undefined) {
           expression = "";
-          secondOperand.innerText = 'Value not found';
+          secondOperand.innerText = 0;
         } 
         
         else {
